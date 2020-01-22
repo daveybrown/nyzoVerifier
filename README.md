@@ -45,6 +45,14 @@ sudo cp trusted_entry_points /var/lib/nyzo/production
 ```
 
 ```
+cd pwd
+```
+If it returns `/home/ubuntu/nyzoVerifier` then skip the next step.
+```
+sudo sh nyzoVerifier.sh
+```
+
+```
 sudo cp nyzoVerifier.conf /etc/supervisor/conf.d/
 ```
 
